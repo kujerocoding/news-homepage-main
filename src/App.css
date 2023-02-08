@@ -22,6 +22,8 @@ body{
     font-size: var(--FS);
 }
 
+
+
 main{
    background-color: var(--OFFWHITE);
    min-width: 300px;
@@ -36,6 +38,11 @@ main{
 
 main > img{
     width: 100%;
+}
+
+.main-img{
+    width: 100%;
+    background-image: url('../src/assets/images/image-web-3-mobile.jpg');
 }
 
 main > h1{
@@ -77,13 +84,17 @@ nav{
     width: 50px;
 }
 
+.menu-close{
+    display: none;
+}
+
 .menu-active{
     position: absolute;
     background-color:var(--OFFWHITE);
     top: 0;
     right: 0;
     width: 70%;
-    display: none;
+    display: flex;
     flex-direction: column;
     align-items: start;
     padding: 20px;
@@ -168,4 +179,29 @@ section > div > p {
 .attribution{
     margin-top: 20px;
     text-align: center;
+}
+
+
+@media (min-width: 40em){
+
+   main,nav{
+    margin-top: 40px;
+    max-width: 1200px;
+    position: unset;
+    margin-inline: auto;
+   }
+
+    .nav-menu-icon, .nav-menu-close{
+        display: none;
+    }
+
+    .menu-close{
+        display: block;
+    }
+
+    .menu-open{
+        display: flex;
+        gap: 20px;
+        list-style: none;
+    }
 }
