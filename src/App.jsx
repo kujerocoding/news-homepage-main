@@ -1,7 +1,6 @@
 import React from 'react'
 import Navbar from './components/Navbar'
 import Main from './components/Main'
-import Attribution from './components/Attribution'
 import './App.css'
 import {useState} from 'react'
 
@@ -15,10 +14,9 @@ const App = () => {
   }
 
   return (
-    <div>
+    <div className='app-container'>
       <Navbar menuIsOn={menuIsOn} handleClick={toggle}/>
       <Main />
-      <Attribution />
     </div>
   )
 }

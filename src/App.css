@@ -22,14 +22,28 @@ body{
     font-size: var(--FS);
 }
 
+
+
+main{
+   background-color: blue;
+   min-width: 300px;
+   padding-inline: 20px;
+   position: absolute;
+   top: 100px;
+}
+
+main > img{
+    width: 100%;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: red;
     position: fixed;
     width: 100vw;
+    z-index: 1;
 }
 
 .nav-logo{
@@ -58,3 +72,4 @@ nav{
     margin-top: 50px;
     line-height: 2.5rem;
 }
+

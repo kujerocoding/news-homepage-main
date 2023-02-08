@@ -42,7 +42,10 @@ const Main = () => {
             <p>How the pandemic has sparked fresh opportunities.</p>
         </section>
       </article>
-    </main>
+        <div className='attribution'>
+            Challenge by <a href="https://www.frontendmentor.io/home" target="_blank">Frontend Mentor.</a> Coded by kujerocoding
+        </div>
+    </main> 
   )
 }
 
