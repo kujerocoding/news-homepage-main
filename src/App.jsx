@@ -1,9 +1,12 @@
 import React from 'react'
+import Navbar from './components/Navbar'
+import Main from './components/Main'
 
 const App = () => {
   return (
     <div>
-      News homepage
+      <Navbar />
+      <Main />
     </div>
   )
 }
