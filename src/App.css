@@ -10,3 +10,38 @@
     --DARKGRAYISHBLUE: hsl(236, 13%, 42%);
     --VERYDARKBLUE: hsl(240, 100%, 5%);
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--FF);
+    font-size: var(--FS);
+}
+
+
+.menu-active{
+    position: absolute;
+    background-color:var(--OFFWHITE);
+    top: 0;
+    right: 0;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 20px;
+    height: 100vh;
+}
+
+.menu-active > img{
+    align-self: flex-end;
+}
+
+.menu-active > ul{
+    list-style: none;
+    margin-top: 50px;
+    line-height: 2.5rem;
+}

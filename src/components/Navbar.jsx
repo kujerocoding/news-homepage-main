@@ -6,18 +6,23 @@ import Logo from '../assets/images/logo.svg'
 
 const Navbar = () => {
   return (
-    <nav>
-      <img src={Logo} alt="" />
-      <img src={IconMenu} alt="" />
-      <img src={IconMenuClose} alt="" />
-      <ul>
-        <li>Home</li>
-        <li>New</li>
-        <li>Popular</li>
-        <li>Trending</li>
-        <li>Categories</li>
-      </ul>
-    </nav>
+    <div>
+        <nav>
+            <img src={Logo} alt="" />
+            <img src={IconMenu} alt="" />
+        </nav>
+        <div className='menu-active'>
+            <img src={IconMenuClose} alt="" />
+            <ul>
+                <li>Home</li>
+                <li>New</li>
+                <li>Popular</li>
+                <li>Trending</li>
+                <li>Categories</li>
+            </ul>
+        </div>
+    </div>
+    
   )
 }
 
