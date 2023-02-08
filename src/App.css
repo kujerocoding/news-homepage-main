@@ -28,6 +28,10 @@ main{
    padding-inline: 20px;
    position: absolute;
    top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 main > img{
@@ -116,6 +120,7 @@ nav{
     color: var(--SOFTORANGE);
     padding: 20px;
     margin-top: 50px;
+    max-width: 335px;
 }
 
 .new-item-container{
@@ -145,6 +150,7 @@ section{
     display: flex;
     gap: 20px;
     line-height: 2rem;
+    max-width: 335px;
 }
 
 section > img{
