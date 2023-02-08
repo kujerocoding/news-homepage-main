@@ -85,6 +85,7 @@ nav{
     padding: 20px;
     height: 100vh;
     z-index: 10;
+ 
 }
 
 .menu-active > img{
@@ -95,6 +96,8 @@ nav{
     list-style: none;
     margin-top: 50px;
     line-height: 2.5rem;
+    color: var(--VERYDARKBLUE);
+    font-size: 1.1rem;
 }
 
 .menu-active:before{
