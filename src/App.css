@@ -23,7 +23,7 @@ body{
 }
 
 main{
-   background-color: pink;
+   background-color: var(--OFFWHITE);
    min-width: 300px;
    padding-inline: 20px;
    position: absolute;
@@ -97,6 +97,17 @@ nav{
     line-height: 2.5rem;
 }
 
+.menu-active:before{
+    position: absolute;
+    content: "";
+    left: -120px;
+    top: -20px;
+    min-width: 46%;
+    min-height: 120vh;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 1;
+}
+
 .new-container{
     background-color: var(--VERYDARKBLUE);
     color: var(--SOFTORANGE);
@@ -118,7 +129,34 @@ nav{
     line-height: 1.5rem;
 }
 
-.new-item-container:nth-child(2), :nth-child(3){
+.new-item-container:nth-child(2), .new-item-container:nth-child(3){
     border-bottom: 1px solid var(--DARKGRAYISHBLUE);
 }
+article{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+section{
+    display: flex;
+    gap: 20px;
+    line-height: 2rem;
+}
 
+section > img{
+    width: 100px;
+}
+
+section > div > h2 {
+    color: var(--GRAYISHBLUE);
+    font-size: 2rem;
+}
+section > div > p {
+    color: var(--DARKGRAYISHBLUE);
+}
+
+.attribution{
+    margin-top: 20px;
+    text-align: center;
+}

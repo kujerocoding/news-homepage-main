@@ -9,12 +9,12 @@ const Navbar = (props) => {
         display: props.menuIsOn ? "flex" : "none"
     }
   return (
-    <div>
+    <div>  
         <nav>
             <img src={Logo} alt="" className='nav-logo'  />
             <img src={IconMenu} alt="" onClick={props.handleClick} />
         </nav>
-        <div className='menu-active' style={style} onClick={props.handleClick}>
+        <div className='menu-active' style={style} onClick={props.handleClick}>           
             <img src={IconMenuClose} alt="" />
             <ul>
                 <li>Home</li>
