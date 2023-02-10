@@ -71,6 +71,11 @@ button{
     background-color: var(--SOFTRED);
     color: white;
     font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: var(--VERYDARKBLUE);
 }
 
 nav{
