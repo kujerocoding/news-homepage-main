@@ -6,10 +6,12 @@ const Main = () => {
       {/* <img src="../src/assets/images/image-web-3-mobile.jpg" alt="" /> */}
       <div className='main-img'></div>
       <h1>The Bright Future of Web 3.0?</h1>
-      <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
-      <button>Read more</button>
+      <div>
+        <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
+        <button>Read more</button>
+      </div>
       <div className='new-container'>
-        <h2>New</h2>
+        <h1>New</h1>
         <div className='new-item-container'>
             <h3>Hydrogen VS Electric Cars</h3>
             <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
@@ -23,7 +25,6 @@ const Main = () => {
             <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
         </div>
       </div>
-      <article>
         <section className='section-one'>
             <img src="../src/assets/images/image-retro-pcs.jpg" alt="" />
             <div>
@@ -48,7 +49,7 @@ const Main = () => {
                 <p>How the pandemic has sparked fresh opportunities.</p>
             </div>
         </section>
-      </article>
+      
         <div className='attribution'>
             Challenge by <a href="https://www.frontendmentor.io/home" target="_blank">Frontend Mentor.</a> Coded by kujerocoding
         </div>
