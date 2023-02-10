@@ -1,20 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
 
 :root{
+    --DARKGRAYISHBLUE: hsl(236, 13%, 42%);
     --FF: 'Inter', sans-serif;
     --FS: 15px;
+    --GRAYISHBLUE: hsl(233, 8%, 79%);
+    --OFFWHITE: hsl(36, 100%, 99%);
     --SOFTORANGE: hsl(35, 77%, 62%);
     --SOFTRED: hsl(5, 85%, 63%);
-    --OFFWHITE: hsl(36, 100%, 99%);
-    --GRAYISHBLUE: hsl(233, 8%, 79%);
-    --DARKGRAYISHBLUE: hsl(236, 13%, 42%);
     --VERYDARKBLUE: hsl(240, 100%, 5%);
 }
 
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body{
@@ -35,6 +35,7 @@ main{
   align-items: center;
   margin-inline: auto;
   padding-inline: 20px;
+  overflow-x: visible;
 }
 
 
@@ -110,7 +111,6 @@ nav{
     padding: 20px;
     height: 100vh;
     z-index: 10;
- 
 }
 
 .menu-active > img{
@@ -124,17 +124,14 @@ nav{
     color: var(--VERYDARKBLUE);
     font-size: 1.1rem;
 }
-
-.menu-active:before{
+ 
+ .overlay{
+    width: 1000px;
+    height: 2000px;
+    background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
-    content: "";
-    left: -120px;
-    top: -20px;
-    min-width: 47.7%;
-    min-height: 120vh;
-    background-color: rgba(0, 0, 0, .5);
-    z-index: 1;
-}
+    top: -100px;
+} 
 
 .new-container{
     background-color: var(--VERYDARKBLUE);

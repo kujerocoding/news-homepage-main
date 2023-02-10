@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Main = () => {
+const Main = (props) => {
   return (
     <main>
-      {/* <img src="../src/assets/images/image-web-3-mobile.jpg" alt="" /> */}
+        <div className={props.menuIsOn ? "overlay" : ""}></div> 
       <div className='main-img'></div>
       <h1>The Bright Future of Web 3.0?</h1>
       <div>

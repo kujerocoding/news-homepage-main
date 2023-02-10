@@ -16,7 +16,7 @@ const App = () => {
   return (
     <div className='app-container'>
       <Navbar menuIsOn={menuIsOn} handleClick={toggle}/>
-      <Main />
+      <Main  menuIsOn={menuIsOn} />
     </div>
   )
 }

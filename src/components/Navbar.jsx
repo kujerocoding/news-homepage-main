@@ -10,7 +10,8 @@ const Navbar = (props) => {
         <nav>
             <img src={Logo} alt="" className='nav-logo'  />
             <img src={IconMenu} alt="" onClick={props.handleClick} className='nav-menu-icon' />
-            <div className={props.menuIsOn ? "menu-active" : "menu-close"} >           
+            <div className={props.menuIsOn ? "menu-active" : "menu-close"} >
+                      
                 <img src={IconMenuClose} alt="" className='nav-menu-close' onClick={props.handleClick}/>
                 <ul className='menu-open'>
                     <li>Home</li>
