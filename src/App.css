@@ -243,6 +243,11 @@ section > div > p {
         font-size: 1.2rem;
     }
 
+    .menu-open > li:hover, section > div > h3:hover{
+        color: var(--SOFTRED);
+        cursor: pointer;
+    }
+
     main > h1{
         font-size: 3.6rem;
         line-height: 1em;
@@ -253,8 +258,6 @@ section > div > p {
         margin: 0;
         font-size: 1.05rem;
     }
-
-    
 
     .attribution{
         grid-column: 1/4;
