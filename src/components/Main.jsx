@@ -1,9 +1,10 @@
 import React from 'react'
 
 const Main = (props) => {
+    
   return (
     <main>
-        <div className={props.menuIsOn ? "overlay" : ""}></div> 
+       {/*  <div className="overlay"></div> */} 
       <div className='main-img'></div>
       <h1>The Bright Future of Web 3.0?</h1>
       <div>
