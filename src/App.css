@@ -184,6 +184,16 @@ section > div > p {
     color: var(--DARKGRAYISHBLUE);
 }
 
+.new-item-container > h3:hover{
+    color: var(--SOFTORANGE);
+    cursor: pointer;
+}
+
+.menu-open > li:hover, section > div > h3:hover{
+    color: var(--SOFTRED);
+    cursor: pointer;
+}
+
 .attribution{
     margin-top: 20px;
     text-align: center;
@@ -241,11 +251,6 @@ section > div > p {
         gap: 30px;
         list-style: none;
         font-size: 1.2rem;
-    }
-
-    .menu-open > li:hover, section > div > h3:hover{
-        color: var(--SOFTRED);
-        cursor: pointer;
     }
 
     main > h1{
